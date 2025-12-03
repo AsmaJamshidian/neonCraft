@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #050505;
+  color: #f8f9ff;
+}
+
+.neon-grid {
+  background-image: radial-gradient(
+      circle at center,
+      rgba(50, 246, 246, 0.25),
+      transparent 50%
+    ),
+    linear-gradient(
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.02) 1px,
+      transparent 1px
+    );
+  background-size: 600px 600px, 60px 60px, 60px 60px;
+}
+
+.blur-beam {
+  pointer-events: none;
+  filter: blur(80px);
+  opacity: 0.45;
+}
+
