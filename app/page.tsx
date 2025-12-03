@@ -15,9 +15,15 @@ export default function HomePage() {
 
   const highlights = [
     { label: t("home.highlight.years"), value: t("home.highlight.yearsValue") },
-    { label: t("home.highlight.products"), value: t("home.highlight.productsValue") },
+    {
+      label: t("home.highlight.products"),
+      value: t("home.highlight.productsValue"),
+    },
     { label: t("home.highlight.roi"), value: t("home.highlight.roiValue") },
-    { label: t("home.highlight.remote"), value: t("home.highlight.remoteValue") }
+    {
+      label: t("home.highlight.remote"),
+      value: t("home.highlight.remoteValue"),
+    },
   ];
 
   return (
@@ -43,10 +49,11 @@ export default function HomePage() {
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4 }}
-                  className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/40 px-6 py-4"
-                >
+                  className="flex items-center justify-between rounded-2xl border border-white/10 bg-black/40 px-6 py-4">
                   <span className="text-muted">{item.label}</span>
-                  <span className="font-display text-2xl text-accent-cyan">{item.value}</span>
+                  <span className="font-display text-2xl text-accent-cyan">
+                    {item.value}
+                  </span>
                 </motion.div>
               ))}
             </div>
@@ -61,7 +68,7 @@ export default function HomePage() {
           />
           <div className="grid gap-8 md:grid-cols-2">
             {projects.slice(0, 2).map((project) => (
-              <ProjectCard key={project.title} project={project} />
+              <ProjectCard key={project.titleKey} project={project} />
             ))}
           </div>
           <div className="flex justify-center">
@@ -79,12 +86,13 @@ export default function HomePage() {
             {skills.map((skill) => (
               <div
                 key={skill.labelKey}
-                className="rounded-3xl border border-white/5 bg-white/5 p-6 shadow-inner"
-              >
+                className="rounded-3xl border border-white/5 bg-white/5 p-6 shadow-inner">
                 <p className="text-xs uppercase tracking-[0.4em] text-muted">
                   {t(skill.labelKey)}
                 </p>
-                <p className="mt-3 text-3xl font-display text-accent-purple">{skill.strength}%</p>
+                <p className="mt-3 text-3xl font-display text-accent-purple">
+                  {skill.strength}%
+                </p>
                 <p className="mt-4 text-sm text-muted">{t(skill.detailKey)}</p>
               </div>
             ))}
@@ -94,4 +102,3 @@ export default function HomePage() {
     </>
   );
 }
-

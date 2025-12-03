@@ -10,7 +10,7 @@ type Skill = {
 };
 
 type SkillChartProps = {
-  skills: Skill[];
+  skills: readonly Skill[];
 };
 
 export function SkillChart({ skills }: SkillChartProps) {
@@ -25,8 +25,7 @@ export function SkillChart({ skills }: SkillChartProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.05 }}
           viewport={{ once: true, amount: 0.4 }}
-          className="rounded-2xl border border-white/5 bg-white/5 p-5 backdrop-blur"
-        >
+          className="rounded-2xl border border-white/5 bg-white/5 p-5 backdrop-blur">
           <div className="flex items-center justify-between">
             <h4 className="font-display text-xl">{t(skill.labelKey)}</h4>
             <span className="text-sm text-muted">{skill.strength}%</span>
@@ -43,4 +42,3 @@ export function SkillChart({ skills }: SkillChartProps) {
     </div>
   );
 }
-

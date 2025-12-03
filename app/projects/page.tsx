@@ -22,14 +22,12 @@ export default function ProjectsPage() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="grid gap-10 md:grid-cols-2"
-        >
+          className="grid gap-10 md:grid-cols-2">
           {projects.map((project) => (
-            <ProjectCard key={project.title} project={project} />
+            <ProjectCard key={project.titleKey} project={project} />
           ))}
         </motion.div>
       </main>
     </>
   );
 }
-
