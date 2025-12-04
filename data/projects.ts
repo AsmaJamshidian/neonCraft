@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     titleKey: "projects.cryptex.title",
     descriptionKey: "projects.cryptex.description",
-    technologies: ["Next.js", "Three.js", "GraphQL", "Turborepo"],
+    technologies: ["C# (.NET)", "RSA", "Aes", "Hashing"],
     image: "/images/cryptex.png",
     github: "https://github.com/AsmaJamshidian/Cryptex"
   },
