@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     titleKey: "projects.vigiEmotion.title",
     descriptionKey: "projects.vigiEmotion.description",
-    technologies: ["Edge Functions", "WebSockets", "OpenAI", "Tailwind"],
+    technologies: ["Python", "OpenCV (cv2)", "DeepFace", "CSV"و"OS"],
     image:
       "/images/vigiemotion.png",
     github: "https://github.com/AsmaJamshidian/VigiEmotion"
@@ -19,14 +19,14 @@ export const projects: Project[] = [
   {
     titleKey: "projects.handControl.title",
     descriptionKey: "projects.handControl.description",
-    technologies: ["Next.js", "Prisma", "Stripe", "Framer Motion"],
+    technologies: ["Python", "OpenCV (cv2)", "MediaPipe Hands", "pyautogui","threading"],
     image: "/images/hand control.png",
     github: "https://github.com/AsmaJamshidian/HandControl"
   },
   {
     titleKey: "projects.nova.title",
     descriptionKey: "projects.nova.description",
-    technologies: ["React Server Components", "Postgres", "LangChain", "D3"],
+    technologies: ["Python", "speech_recognition", "pyttsx3", "wikipedia"و"requests"و"subprocess","os","psutil"],
     image:
       "/images/nova.png",
     github: "https://github.com/AsmaJamshidian/nova"
