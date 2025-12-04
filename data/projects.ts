@@ -11,7 +11,7 @@ export const projects: Project[] = [
   {
     titleKey: "projects.vigiEmotion.title",
     descriptionKey: "projects.vigiEmotion.description",
-    technologies: ["Python", "OpenCV (cv2)", "DeepFace", "CSV"و"OS"],
+    technologies: ["Python", "OpenCV (cv2)", "DeepFace", "CSV"و"Os"],
     image:
       "/images/vigiemotion.png",
     github: "https://github.com/AsmaJamshidian/VigiEmotion"
