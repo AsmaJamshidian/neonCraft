@@ -91,16 +91,16 @@ const messages: AllMessages = {
     // Individual projects (titles/descriptions override)
     "projects.cryptex.title": "Cryptex",
     "projects.cryptex.description":
-      "Mission-control dashboard for autonomous drone fleets with live telemetry, predictive alerts, and immersive 3D path visualizations.",
+      "Hybrid encryption program using RSA and AES to securely encrypt and decrypt passwords, then hash them with BCrypt for secure storage.",
     "projects.vigiEmotion.title": "VigiEmotion",
     "projects.vigiEmotion.description":
       "Streaming analytics layer that merges IoT signals with GPT copilots so operators can query infrastructure in plain language.",
     "projects.handControl.title": "HandControl",
     "projects.handControl.description":
-      "Composable ecommerce core with dynamic pricing, automated merchandising, and AI-curated lookbooks for premium brands.",
-    "projects.aurora.title": "Aurora Research Hub",
-    "projects.aurora.description":
-      "Knowledge orchestration platform blending notebooks, realtime collaboration, and generative insights for R&D squads.",
+      "Hand-tracking system using MediaPipe and OpenCV to control mouse, clicks, drags, and slide navigation with gestures.",
+    "projects.nova.title": "nova assitant",
+    "projects.nova.description":
+      "Voice assistant “Nova” with speech recognition, AI chat, Wikipedia search, app management, time reporting, and system control.",
 
     // Contact page
     "contact.header.eyebrow": "Contact",
@@ -115,6 +115,7 @@ const messages: AllMessages = {
     "contact.form.email": "Email",
     "contact.form.message": "Message",
     "contact.form.send": "Send Message",
+    "contact.form.sending": "Sending...",
     "contact.form.queued": "Message Queued",
     "contact.form.note": "I reply within 24 hours.",
 
@@ -135,125 +136,123 @@ const messages: AllMessages = {
       "Independent Product Engineer — Delivered end-to-end software for clients, from UX flows and frontend interfaces to backend logic, model deployment, and long-term optimization.",
     "resume.download": "Download Resume"
   },
-  fa: {
-    // Navigation
-    "nav.brand": "نئون‌کرفت",
-    "nav.home": "خانه",
-    "nav.projects": "پروژه‌ها",
-    "nav.resume": "رزومه",
-    "nav.contact": "تماس",
-    "nav.lang.en": "انگ",
-    "nav.lang.fa": "فا",
-
-    // Hero
-    "hero.badge": "مهندسی سامانه‌های هوشمند و مقیاس‌پذیر",
-    "hero.title": "من اسما هستم — می‌سازم اندروید نسل بعد، سیستم‌های هوش مصنوعی و فول‌استک مدرن.",
-    "hero.body":
-      "توسعه‌دهنده‌ای متمرکز بر اپلیکیشن‌های اندروید، پردازش تصویر، تحلیل داده و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا اپ‌هایی بسازم که با نیاز واقعی کاربر رشد می‌کنند.",
-    "hero.cta.work": "دیدن کارها",
-    "hero.cta.contact": "همکاری",
-
-    // Home: About
-    "home.about.eyebrow": "درباره من",
-    "home.about.title": "مهندسی محصولی که شبیه علمی‌تخیلی است.",
-    "home.about.description":
-      "زیرساخت‌های ابری مقاوم طراحی می‌کنم، تجربه‌های تعاملی با Framer Motion می‌سازم و مسائل مبهم بیزنسی را به سطوح محصولی صیقل‌خورده تبدیل می‌کنم.",
-    "home.about.p1":
-      "از استارتاپ‌های شتاب‌دهنده تا تیم‌های بزرگ سازمانی، پل بین بنیان‌گذاران رؤیاباف، استراتژی محصول و اجرای مهندسی بوده‌ام؛ جایی که ایده‌ها واقعی می‌شوند.",
-    "home.about.p2":
-      "فول‌استک کار می‌کنم با تمرکز روی تجربه توسعه‌دهنده: APIهای تایپ‌شده، کوپایلوت‌های هوش مصنوعی داخل ابزارها و دیزاین‌سیستم‌هایی که با تیم رشد می‌کنند. هر خروجی از نظر کارایی، دسترس‌پذیری و حس ‘واو’ احساسی سنجیده می‌شود.",
-
-    // Home: Highlights
-    "home.highlight.years": "سال ساخت محصولات آینده‌نگر",
-    "home.highlight.yearsValue": "۱۰+",
-    "home.highlight.products": "محصولات لانچ‌شده در صنایع مختلف",
-    "home.highlight.productsValue": "۴۵",
-    "home.highlight.roi": "میانگین بهبود بازگشت سرمایه",
-    "home.highlight.roiValue": "۳۷٪",
-    "home.highlight.remote": "همکاری‌های ریموت در چند منطقه زمانی",
-    "home.highlight.remoteValue": "۱۲ منطقه‌زمانی",
-
-    // Home: Projects
-    "home.projects.eyebrow": "پروژه‌ها",
-    "home.projects.title": "ساخت‌هایی در سطح تولید با پولیش نئونی.",
-    "home.projects.description":
-      "چند نمونه منتخب که ترکیبی از رابط کاربری غوطه‌ور، کوپایلوت‌های هوش مصنوعی و ستون فقرات ابری مدرن هستند.",
-    "home.projects.cta": "مشاهده همه پروژه‌ها",
-
-    // Home: Skills
-    "home.skills.eyebrow": "مهارت‌ها",
-    "home.skills.title": "ماتریس مهارتی آزموده‌شده برای تیم‌های محصول مدرن.",
-    "home.skills.description":
-      "از ایده تا لانچ، به عنوان لید مهندسی با درک طراحی، در اسکوادها عضو می‌شوم.",
-
-    // Generic skills
-    "skills.android.label": "توسعه اندروید",
-    "skills.android.detail":
-      "ساخت اپلیکیشن‌های اندروید مقیاس‌پذیر و performant با معماری‌های مدرن و کد تمیز.",
-    "skills.image.label": "پردازش تصویر",
-    "skills.image.detail":
-      "به‌کارگیری الگوریتم‌های پیشرفته بینایی کامپیوتر و پایپلاین‌های یادگیری ماشین برای تحلیل دقیق تصویر.",
-    "skills.data.label": "تحلیل داده",
-    "skills.data.detail":
-      "طراحی پایپلاین‌های داده، تحلیل بلادرنگ و داشبوردهای قابل اقدام برای تصمیم‌گیری بهتر.",
-    "skills.fullstack.label": "توسعه وب فول‌استک",
-    "skills.fullstack.detail":
-      "ساخت وب‌اپ‌های مقیاس‌پذیر با React، Next.js، Node.js و طراحی دیتابیس اصولی.",
-
-    // Projects page
-    "projects.header.eyebrow": "پروژه‌ها",
-    "projects.header.title": "مجموعه‌ای انتخاب‌شده از کارها.",
-    "projects.header.description":
-      "هر لانچ با همین سطح از دقت، مانیتورینگ و داستان‌گویی ساخته و روایت می‌شود.",
-
-    // Individual projects
-    "projects.cryptex.title": "کریپتکس",
-    "projects.cryptex.description":
-      "داشبورد کنترل مأموریت برای ناوگان پهپادهای خودران با تله‌متری زنده، هشدارهای پیشگویانه و تصویرسازی سه‌بعدی مسیرها.",
-    "projects.vigiEmotion.title": "ویجی‌اِموشن",
-    "projects.vigiEmotion.description":
-      "لایه تحلیل استریم که سیگنال‌های IoT را با کوپایلوت‌های GPT ترکیب می‌کند تا اپراتورها بتوانند زیرساخت را به زبان طبیعی کوئری کنند.",
-    "projects.handControl.title": "هندکنترل",
-    "projects.handControl.description":
-      "هسته فروشگاه آنلاین ترکیب‌پذیر با قیمت‌گذاری پویا، مرچندایزینگ خودکار و vitrineهای پیشنهادشده توسط هوش مصنوعی برای برندهای پریمیوم.",
-    "projects.aurora.title": "مرکز پژوهشی اورورا",
-    "projects.aurora.description":
-      "پلتفرم سامان‌دهی دانش که دفترچه‌ها، همکاری هم‌زمان و بینش‌های مولد را برای تیم‌های تحقیق و توسعه کنار هم می‌آورد.",
-
-    // Contact page
-    "contact.header.eyebrow": "تماس",
-    "contact.header.title": "بیایید تجربه شاخص بعدی شما را طراحی کنیم.",
-    "contact.header.description":
-      "چالش یا ایده‌ای که دارید را بنویسید. معمولا ظرف یک روز کاری پاسخ می‌دهم.",
-    "contact.links.email": "ایمیل",
-    "contact.links.linkedin": "لینکدین",
-    "contact.links.github": "گیت‌هاب",
-    "contact.links.x": "ایکس / توییتر",
-    "contact.form.name": "نام",
-    "contact.form.email": "ایمیل",
-    "contact.form.message": "پیام",
-    "contact.form.send": "ارسال پیام",
-    "contact.form.queued": "پیام ثبت شد",
-    "contact.form.note": "معمولاً حداکثر تا ۲۴ ساعت پاسخ می‌دهم.",
-
-    // Resume page
-    "resume.header.eyebrow": "رزومه",
-    "resume.header.title": "عمق مهندسی با نتایج واقعی.",
-    "resume.header.description":
-      "ترکیبی از مهندسی موبایل، توسعه مبتنی بر هوش مصنوعی و سیستم‌های مقیاس‌پذیر. این خلاصه سطح بالا است — برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
-    "resume.narrative.1":
-      "مهندس فول‌استک و اندروید — ساخت اپ‌های موبایل مقیاس‌پذیر، داشبوردهای بلادرنگ و بک‌اندهای پرکارایی که به هزاران کاربر سرویس می‌دهند.",
-    "resume.narrative.2":
-      "توسعه‌دهنده بینایی کامپیوتر و پردازش تصویر — طراحی پایپلاین‌های پیش‌پردازش، مدل‌های تشخیص و بهینه‌سازی inference برای محیط‌های Production.",
-    "resume.narrative.3":
-      "تحلیل‌گر داده و ادغام‌کننده هوش مصنوعی — پیاده‌سازی جریان‌های داده آماده ML، لایه‌های تحلیلی و گزارش‌گیری خودکار که دقت تصمیم‌گیری را در پروژه‌ها بالا برد.",
-    "resume.narrative.4":
-      "معمار سیستم و کلود — توسعه سرویس‌های containerized، APIهای event-driven و زیرساخت‌های الاستیک که زیر فشار ترافیک هم پایدار می‌مانند.",
-    "resume.narrative.5":
-      "مهندس محصول مستقل — تحویل end-to-end نرم‌افزار برای کلاینت‌ها؛ از طراحی تجربه کاربری و رابط جلو تا منطق بک‌اند، استقرار مدل و بهینه‌سازی بلندمدت.",
-    "resume.download": "دانلود رزومه"
-  }
-};
+    fa: {
+      // Navigation
+      "nav.brand": "نئون‌کرفت",
+      "nav.home": "خانه",
+      "nav.projects": "پروژه‌ها",
+      "nav.resume": "رزومه",
+      "nav.contact": "تماس",
+      "nav.lang.en": "انگ",
+      "nav.lang.fa": "فا",
+  
+      // Hero
+      "hero.badge": "مهندسی سیستم‌های هوشمند و مقیاس‌پذیر",
+      "hero.title": "من اسما هستم — توسعه‌دهنده اندروید نسل بعد، سیستم‌های هوش مصنوعی و فول‌استک.",
+      "hero.body":
+        "توسعه‌دهنده‌ای متخصص در اپلیکیشن‌های اندروید، پردازش تصویر، تحلیل داده و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا برنامه‌هایی بسازم که با نیاز واقعی کاربران رشد کنند.",
+      "hero.cta.work": "مشاهده کارها",
+      "hero.cta.contact": "همکاری",
+  
+      // Home: About
+      "home.about.eyebrow": "درباره من",
+      "home.about.title": "مهندسی محصولی که حس علمی‌تخیلی دارد.",
+      "home.about.description":
+        "زیرساخت‌های ابری مقاوم طراحی می‌کنم، تجربه‌های تعاملی با Framer Motion می‌سازم و مسائل پیچیده کسب‌وکار را به محصولات کاربردی و شفاف تبدیل می‌کنم.",
+      "home.about.p1":
+        "از استارتاپ‌های شتاب‌دهنده تا شرکت‌های بزرگ، پل بین بنیان‌گذاران، استراتژی محصول و اجرای مهندسی بوده‌ام تا ایده‌ها واقعی شوند.",
+      "home.about.p2":
+        "فول‌استک کار می‌کنم و تمرکزم روی تجربه توسعه‌دهنده است: APIهای تایپ‌شده، کوپایلوت‌های هوش مصنوعی داخل ابزارها و سیستم‌های طراحی مقیاس‌پذیر. هر محصول از نظر عملکرد، دسترس‌پذیری و تاثیر احساسی بررسی می‌شود.",
+  
+      // Home: Highlights
+      "home.highlight.years": "سال تجربه در تولید محصولات آینده‌نگر",
+      "home.highlight.yearsValue": "۱۰+",
+      "home.highlight.products": "محصولات ارائه‌شده در صنایع مختلف",
+      "home.highlight.productsValue": "۴۵",
+      "home.highlight.roi": "میانگین بهبود بازگشت سرمایه",
+      "home.highlight.roiValue": "۳۷٪",
+      "home.highlight.remote": "همکاری‌های دورکاری",
+      "home.highlight.remoteValue": "۱۲ منطقه زمانی",
+  
+      // Home: Projects
+      "home.projects.eyebrow": "پروژه‌ها",
+      "home.projects.title": "ساخت‌هایی در سطح عملیاتی با طراحی جذاب",
+      "home.projects.description":
+        "نمونه‌هایی منتخب که ترکیبی از رابط کاربری جذاب، کوپایلوت‌های هوش مصنوعی و زیرساخت ابری دارند.",
+      "home.projects.cta": "مشاهده همه پروژه‌ها",
+  
+      // Home: Skills
+      "home.skills.eyebrow": "مهارت‌ها",
+      "home.skills.title": "ماتریس مهارت‌های آزموده‌شده برای تیم‌های محصول مدرن",
+      "home.skills.description":
+        "از ایده تا ارائه، به عنوان لید مهندسی با درک طراحی در تیم‌ها مشارکت می‌کنم.",
+  
+      // Generic skills
+      "skills.android.label": "توسعه اندروید",
+      "skills.android.detail": "ساخت اپلیکیشن‌های اندروید مقیاس‌پذیر و با عملکرد بالا با معماری مدرن و کد تمیز.",
+      "skills.image.label": "پردازش تصویر",
+      "skills.image.detail": "کار با الگوریتم‌های پیشرفته بینایی کامپیوتر و پایپلاین‌های یادگیری ماشین برای تحلیل دقیق تصاویر.",
+      "skills.data.label": "تحلیل داده",
+      "skills.data.detail": "طراحی جریان داده، تحلیل بلادرنگ و داشبوردهای قابل اقدام برای تصمیم‌گیری هوشمندانه.",
+      "skills.fullstack.label": "توسعه وب فول‌استک",
+      "skills.fullstack.detail": "ساخت وب‌اپ‌های مقیاس‌پذیر با React، Next.js، Node.js و طراحی دیتابیس اصولی.",
+  
+      // Projects page
+      "projects.header.eyebrow": "پروژه‌ها",
+      "projects.header.title": "مجموعه‌ای منتخب از پروژه‌ها",
+      "projects.header.description":
+        "هر پروژه با دقت، مانیتورینگ و روایت حرفه‌ای ساخته شده است.",
+  
+      // Individual projects
+      "projects.cryptex.title": "کریپتکس",
+      "projects.cryptex.description":
+        "برنامه‌ای برای رمزنگاری هیبریدی با RSA و AES که گذرواژه‌ها را امن رمزگذاری و رمزگشایی می‌کند و سپس با BCrypt برای ذخیره امن هش می‌کند.",
+      "projects.vigiEmotion.title": "ویجی‌اِموشن",
+      "projects.vigiEmotion.description":
+        "لایه‌ای برای تحلیل داده‌های لحظه‌ای که سیگنال‌های IoT را با کوپایلوت‌های GPT ترکیب می‌کند تا اپراتورها بتوانند زیرساخت‌ها را به زبان ساده مدیریت کنند.",
+      "projects.handControl.title": "هندکنترل",
+      "projects.handControl.description":
+        "سیستم ردیابی دست با MediaPipe و OpenCV برای کنترل ماوس، کلیک، کشیدن و ناوبری اسلایدها با حرکات دست.",
+      "projects.nova.title": "دستیار نووا",
+      "projects.nova.description":
+        "دستیار صوتی «نووا» با تشخیص گفتار، چت هوش مصنوعی، جستجوی ویکی‌پدیا، مدیریت برنامه‌ها، گزارش‌گیری زمانی و کنترل سیستم.",
+  
+      // Contact page
+      "contact.header.eyebrow": "تماس",
+      "contact.header.title": "بیایید تجربه شاخص بعدی شما را طراحی کنیم",
+      "contact.header.description":
+        "چالش یا ایده‌ای که دارید را بنویسید. معمولا ظرف یک روز کاری پاسخ می‌دهم.",
+      "contact.links.email": "ایمیل",
+      "contact.links.linkedin": "لینکدین",
+      "contact.links.github": "گیت‌هاب",
+      "contact.links.x": "ایکس / توییتر",
+      "contact.form.name": "نام",
+      "contact.form.email": "ایمیل",
+      "contact.form.message": "پیام",
+      "contact.form.send": "ارسال پیام",
+      "contact.form.sending": "در حال ارسال...",
+      "contact.form.queued": "پیام ثبت شد",
+      "contact.form.note": "معمولاً ظرف ۲۴ ساعت پاسخ می‌دهم.",
+  
+      // Resume page
+      "resume.header.eyebrow": "رزومه",
+      "resume.header.title": "عمق مهندسی با نتایج واقعی",
+      "resume.header.description":
+        "ترکیبی از مهندسی موبایل، توسعه مبتنی بر هوش مصنوعی و سیستم‌های مقیاس‌پذیر. این یک نمای کلی است — برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
+      "resume.narrative.1":
+        "مهندس فول‌استک و اندروید — ساخت اپلیکیشن‌های موبایل مقیاس‌پذیر، داشبوردهای بلادرنگ و سیستم‌های بک‌اند پرقدرت برای هزاران کاربر فعال.",
+      "resume.narrative.2":
+        "توسعه‌دهنده بینایی کامپیوتر و پردازش تصویر — طراحی پایپلاین‌های پیش‌پردازش، مدل‌های تشخیص و بهینه‌سازی پردازش برای محیط‌های عملیاتی.",
+      "resume.narrative.3":
+        "تحلیل‌گر داده و ادغام‌کننده هوش مصنوعی — پیاده‌سازی جریان‌های داده آماده ML، لایه‌های تحلیلی و سیستم‌های گزارش‌گیری خودکار برای بهبود دقت تصمیم‌گیری.",
+      "resume.narrative.4":
+        "معمار سیستم و کلود — توسعه سرویس‌های کانتینری، APIهای رویدادمحور و زیرساخت‌های انعطاف‌پذیر که توان مقیاس‌پذیری بالا دارند.",
+      "resume.narrative.5":
+        "مهندس محصول مستقل — ارائه نرم‌افزار end-to-end برای مشتریان؛ از طراحی UX و رابط کاربری تا منطق بک‌اند، استقرار مدل و بهینه‌سازی بلندمدت.",
+      "resume.download": "دانلود رزومه"
+    }
+  };
+  
 
 type I18nContextValue = {
   locale: Locale;

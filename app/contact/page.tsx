@@ -12,7 +12,7 @@ export default function ContactPage() {
   const { t } = useI18n();
 
   const links = [
-    { href: "mailto:hey@neoncraft.dev", label: t("contact.links.email"), icon: FaEnvelope },
+    { href: "mailto:jamshidiana154@gmail.com", label: t("contact.links.email"), icon: FaEnvelope },
     { href: "https://linkedin.com/in/armon", label: t("contact.links.linkedin"), icon: FaLinkedinIn },
     { href: "https://github.com/armon", label: t("contact.links.github"), icon: FaGithub },
     { href: "https://x.com/armon", label: t("contact.links.x"), icon: FaTwitter }
