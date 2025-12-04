@@ -13,7 +13,7 @@ export const projects: Project[] = [
     descriptionKey: "projects.vigiEmotion.description",
     technologies: ["Edge Functions", "WebSockets", "OpenAI", "Tailwind"],
     image:
-      "/images/vigiEmotion.png",
+      "/images/vigiemotion.png",
     github: "https://github.com/AsmaJamshidian/VigiEmotion"
   },
   {
