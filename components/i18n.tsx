@@ -26,24 +26,25 @@ const messages: AllMessages = {
     "nav.contact": "Contact",
     "nav.lang.en": "EN",
     "nav.lang.fa": "FA",
+{
+  // Hero
+  "hero.badge": "DESIGNING INTELLIGENT & AUTONOMOUS SOFTWARE SYSTEMS",
+  "hero.title": "I'm Asma — an AI Engineer & Full-Stack Developer crafting intelligent ecosystems.",
+  "hero.body":
+    "An engineer focused on AI-driven solutions, machine learning pipelines, computer vision, and large-scale full-stack systems. I combine clean software architecture with intelligent automation to build products capable of learning, adapting, and evolving with real-world demands.",
+  "hero.cta.work": "View Work",
+  "hero.cta.contact": "Collaborate",
 
-    // Hero
-    "hero.badge": "BUILDING INTELLIGENT & AUTONOMOUS SYSTEMS",
-    "hero.title": "I'm Asma — **AI** Engineer & Full-Stack Developer crafting smart ecosystems.",
-    "hero.body":
-      "Developer specializing in **AI**-powered solutions, machine learning pipelines, computer vision, and scalable full-stack systems. I combine clean engineering with intelligent automation to create software that learns, adapts, and evolves with real-world demand.",
-    "hero.cta.work": "Explore Work",
-    "hero.cta.contact": "Collaborate",
-
-    // Home: About
-    "home.about.eyebrow": "About Me",
-    "home.about.title": "Engineering products that feel futuristic with **AI** insights.",
-    "home.about.description":
-      "I design resilient cloud systems, intelligent experiences, and translate complex data problems into actionable, high-impact products.",
-    "home.about.p1":
-      "From startups to large-scale labs, I bridge the gap between visionary ideas, **AI** strategy, and engineering execution.",
-    "home.about.p2":
-      "My focus is building full-stack systems enhanced with **AI**: predictive models, ML pipelines, autonomous agents, and intelligent APIs. Every project is optimized for performance, accessibility, and smart functionality.",
+  // Home: About
+  "home.about.eyebrow": "About Me",
+  "home.about.title": "Engineering products shaped by **AI** insight and a future-focused mindset.",
+  "home.about.description":
+    "I architect resilient cloud infrastructures, intelligent user experiences, and transform complex data challenges into high-impact, production-ready solutions.",
+  "home.about.p1":
+    "Across startups and research-driven environments, I’ve served as the bridge between visionary ideas, **AI** strategy, and precise engineering execution.",
+  "home.about.p2":
+    "My work centers on building full-stack systems enhanced with **AI**: predictive models, ML pipelines, autonomous agents, and intelligent APIs. Every product is crafted with attention to performance, scalability, accessibility, and long-term intelligence."
+}
 
     // Home: Highlights
     "home.highlight.years": "Years shipping futuristic products",
@@ -158,23 +159,25 @@ const messages: AllMessages = {
     "nav.lang.en": "انگ",
     "nav.lang.fa": "فا",
 
-    // Hero
-    "hero.badge": "ساخت سیستم‌های هوشمند و خودکار",
-    "hero.title": "من اسما هستم — مهندس **AI** و فول‌استک، خلق اکوسیستم‌های هوشمند.",
-    "hero.body":
-      "توسعه‌دهنده‌ای متخصص در راهکارهای مبتنی بر **AI**، پایپلاین‌های یادگیری ماشین، پردازش تصویر و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا نرم‌افزاری بسازم که یاد می‌گیرد، تطبیق می‌دهد و با نیاز واقعی رشد می‌کند.",
-    "hero.cta.work": "مشاهده کارها",
-    "hero.cta.contact": "همکاری",
+{
+  // Hero
+  "hero.badge": "طراحی و ساخت سیستم‌های هوشمند و خودکار",
+  "hero.title": "من اسما هستم — مهندس **AI** و فول‌استک؛ سازنده اکوسیستم‌های هوشمند.",
+  "hero.body":
+    "مهندسی هستم متخصص در راهکارهای مبتنی بر **هوش مصنوعی**، پایپلاین‌های یادگیری ماشین، پردازش تصویر و سیستم‌های فول‌استک مقیاس‌پذیر. رویکردم ترکیب معماری تمیز با اتوماسیون هوشمند است تا نرم‌افزاری ساخته شود که بتواند یاد بگیرد، تطبیق دهد و همراه نیازهای واقعی رشد کند.",
+  "hero.cta.work": "نمونه کارها",
+  "hero.cta.contact": "همکاری",
 
-    // Home: About
-    "home.about.eyebrow": "درباره من",
-    "home.about.title": "مهندسی محصولات با بینش **AI** و حس آینده‌نگر.",
-    "home.about.description":
-      "زیرساخت‌های ابری مقاوم و تجربه‌های هوشمند طراحی می‌کنم و مسائل داده‌ای پیچیده را به محصولات کاربردی تبدیل می‌کنم.",
-    "home.about.p1":
-      "از استارتاپ‌ها تا آزمایشگاه‌های بزرگ، پل بین ایده‌های نوآورانه، استراتژی **AI** و اجرای مهندسی بوده‌ام.",
-    "home.about.p2":
-      "تمرکزم روی ساخت سیستم‌های فول‌استک تقویت‌شده با **AI** است: مدل‌های پیش‌بینی، پایپلاین‌های ML، عوامل خودکار و APIهای هوشمند. هر پروژه برای عملکرد، دسترس‌پذیری و هوشمندی بهینه‌سازی شده است.",
+  // Home: About
+  "home.about.eyebrow": "درباره من",
+  "home.about.title": "مهندسی محصولاتی که با بینش **AI** و نگاه آینده‌گرا ساخته می‌شوند.",
+  "home.about.description":
+    "معماری سیستم‌های ابری مقاوم، تجربه‌های هوشمند و تبدیل چالش‌های پیچیده داده به محصولاتی قابل اتکا و قابل استفاده، حوزه تخصصی من است.",
+  "home.about.p1":
+    "در مسیر همکاری با استارتاپ‌ها و تیم‌های تحقیقاتی، همواره پل میان ایده‌های نوآورانه، استراتژی‌های **AI** و اجرای مهندسی دقیق بوده‌ام.",
+  "home.about.p2":
+    "تمرکزم بر ساخت سیستم‌های فول‌استک تقویت‌شده با هوش مصنوعی است: مدل‌های پیش‌بینی، پایپلاین‌های ML، عامل‌های خودکار و APIهای هوشمند. هر پروژه با وسواس روی عملکرد، پایداری و تجربه نهایی کاربر طراحی و بهینه‌سازی می‌شود."
+}
 
     // Home: Highlights
     "home.highlight.years": "سال تجربه در محصولات آینده‌نگر",
