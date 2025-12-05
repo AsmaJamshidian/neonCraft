@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     titleKey: "projects.nova.title",
     descriptionKey: "projects.nova.description",
-    technologies: ["Python", "speech_recognition", "pyttsx3", "wikipedia"و"requests","subprocess","os","psutil"],
+    technologies: ["Python", "speech_recognition", "pyttsx3", "wikipedia","requests","subprocess","os","psutil"],
     image:
       "/images/nova.png",
     github: "https://github.com/AsmaJamshidian/nova"
