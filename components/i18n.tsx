@@ -28,22 +28,22 @@ const messages: AllMessages = {
     "nav.lang.fa": "FA",
 
     // Hero
-    "hero.badge": "ENGINEERING INTELLIGENT & SCALABLE SYSTEMS",
-    "hero.title": "I'm Asma — building next-gen Android, AI-powered, and full-stack ecosystems.",
+    "hero.badge": "BUILDING INTELLIGENT & AUTONOMOUS SYSTEMS",
+    "hero.title": "I'm Asma — AI Engineer & Full-Stack Developer crafting smart ecosystems.",
     "hero.body":
-      "Developer focused on Android applications, image processing, data analysis, and scalable full-stack systems. I merge clean engineering with intelligent automation to create apps that adapt, learn, and grow with real-world demand.",
-    "hero.cta.work": "View Work",
-    "hero.cta.contact": "Collaborate",
+      "Developer specializing in AI-powered solutions, machine learning pipelines, computer vision, and scalable full-stack systems. I combine clean engineering with intelligent automation to create software that learns, adapts, and evolves with real-world demand.",
+    "hero.cta.work": "Explore AI Work",
+    "hero.cta.contact": "Collaborate on AI",
 
     // Home: About
     "home.about.eyebrow": "About Me",
-    "home.about.title": "Product engineering that feels like science fiction.",
+    "home.about.title": "Engineering AI products that feel futuristic.",
     "home.about.description":
-      "I architect resilient cloud systems, choreograph Framer Motion experiences, and translate ambiguous business problems into polished product surfaces.",
+      "I design resilient cloud systems, AI-driven experiences, and translate complex data problems into actionable, intelligent products.",
     "home.about.p1":
-      "From YC rocketships to Fortune 50 labs, I have been the bridge between visionary founders, product strategy, and the engineering execution that makes ideas tangible.",
+      "From startups to large-scale labs, I bridge the gap between visionary ideas, AI strategy, and engineering execution.",
     "home.about.p2":
-      "I operate full-stack with a focus on the DX that empowers teams: typed APIs, AI copilots inside tooling, and design systems that scale. Every build is benchmarked for performance, accessibility, and an emotional wow-factor.",
+      "My focus is building full-stack systems enhanced by AI: predictive models, ML pipelines, autonomous agents, and intelligent APIs. Every project is optimized for performance, accessibility, and smart functionality.",
 
     // Home: Highlights
     "home.highlight.years": "Years shipping futuristic products",
@@ -57,10 +57,10 @@ const messages: AllMessages = {
 
     // Home: Projects
     "home.projects.eyebrow": "Projects",
-    "home.projects.title": "Operational-grade builds with neon polish.",
+    "home.projects.title": "Operational-grade builds with AI polish.",
     "home.projects.description":
-      "Selected case studies blending immersive UI, AI copilots, and cloud-native backbones.",
-    "home.projects.cta": "View Full Portfolio",
+      "Selected case studies blending intelligent systems, ML models, and cloud-native backbones.",
+    "home.projects.cta": "View Full AI Portfolio",
 
     // Home: Skills
     "home.skills.eyebrow": "Skills",
@@ -68,7 +68,7 @@ const messages: AllMessages = {
     "home.skills.description":
       "From ideation to launch, I plug into squads as an engineering lead with design fluency.",
 
-    // Skills
+    // Skills (unchanged)
     "skills.android.label": "Android Development",
     "skills.android.detail": "Developing Android applications using Kotlin, Java, and modern frameworks.",
     "skills.image.label": "Image Processing",
@@ -94,26 +94,29 @@ const messages: AllMessages = {
 
     // Projects page
     "projects.header.eyebrow": "Projects",
-    "projects.header.title": "A curated set of builds.",
+    "projects.header.title": "A curated set of AI-powered builds.",
     "projects.header.description":
-      "Every launch is benchmarked, instrumented, and narrated with the same craftsmanship you see here.",
+      "Every launch is instrumented and optimized with intelligent systems and ML pipelines.",
 
-    "projects.cryptex.title": "Cryptex",
+    "projects.cryptex.title": "Cryptex AI",
     "projects.cryptex.description":
-      "Hybrid encryption program using RSA and AES to securely encrypt and decrypt passwords, then hash them with BCrypt for secure storage.",
+      "Hybrid encryption system enhanced with AI-based password analysis and secure storage.",
+
     "projects.vigiEmotion.title": "VigiEmotion",
     "projects.vigiEmotion.description":
-      "Streaming analytics layer that merges IoT signals with GPT copilots so operators can query infrastructure in plain language.",
-    "projects.handControl.title": "HandControl",
+      "Real-time analytics combining IoT signals and GPT-powered copilots for infrastructure monitoring.",
+
+    "projects.handControl.title": "HandControl AI",
     "projects.handControl.description":
-      "Hand-tracking system using MediaPipe and OpenCV to control mouse, clicks, drags, and slide navigation with gestures.",
-    "projects.nova.title": "Nova Assistant",
+      "AI-powered hand gesture recognition system using MediaPipe & OpenCV for smart device control.",
+
+    "projects.nova.title": "Nova AI Assistant",
     "projects.nova.description":
-      "Voice assistant “Nova” with speech recognition, AI chat, Wikipedia search, app management, time reporting, and system control.",
+      "Voice assistant integrating AI chat, automation, scheduling, and smart system controls.",
 
     // Contact page
     "contact.header.eyebrow": "Contact",
-    "contact.header.title": "Let’s architect your next flagship experience.",
+    "contact.header.title": "Let’s architect your next AI-driven experience.",
     "contact.header.description":
       "Drop a note with the challenge you’re facing. I usually reply within one business day.",
     "contact.links.email": "Email",
@@ -130,19 +133,19 @@ const messages: AllMessages = {
 
     // Resume page
     "resume.header.eyebrow": "Resume",
-    "resume.header.title": "Engineering depth with real-world results.",
+    "resume.header.title": "Engineering depth with AI-driven results.",
     "resume.header.description":
-      "A blend of mobile engineering, AI-driven development, and scalable systems. This is the high-level snapshot — download the full PDF for full project breakdowns.",
+      "A blend of AI engineering, machine learning pipelines, and scalable systems. Download the full PDF for complete project breakdowns.",
     "resume.narrative.1":
-      "Full-Stack & Android Engineer — Built scalable mobile apps, real-time dashboards, and high-performance backend systems for products serving thousands of active users.",
+      "Full-Stack & AI Engineer — Built AI-powered mobile apps, real-time dashboards, and intelligent backend systems for thousands of users.",
     "resume.narrative.2":
-      "Computer Vision & Image Processing Developer — Designed custom preprocessing pipelines, detection models, and optimized inference workflows for production environments.",
+      "Computer Vision Developer — Designed ML pipelines and optimized inference workflows for production environments.",
     "resume.narrative.3":
-      "Data Analyst & AI Integrator — Implemented machine-learning-ready data flows, analytics layers, and automated reporting systems that improved decision accuracy across projects.",
+      "Data Analyst & AI Integrator — Implemented ML-ready data flows and automated reporting systems for enhanced decision-making.",
     "resume.narrative.4":
-      "Cloud & System Architect — Developed containerized services, event-driven APIs, and elastic infrastructures capable of scaling under heavy concurrency.",
+      "Cloud & System Architect — Developed scalable, event-driven APIs and elastic infrastructures integrating AI services.",
     "resume.narrative.5":
-      "Independent Product Engineer — Delivered end-to-end software for clients, from UX flows and frontend interfaces to backend logic, model deployment, and long-term optimization.",
+      "Independent Product Engineer — Delivered end-to-end intelligent software, from UX to backend, model deployment, and optimization.",
     "resume.download": "Download Resume"
   },
   fa: {
@@ -156,25 +159,25 @@ const messages: AllMessages = {
     "nav.lang.fa": "فا",
 
     // Hero
-    "hero.badge": "مهندسی سیستم‌های هوشمند و مقیاس‌پذیر",
-    "hero.title": "من اسما هستم — توسعه‌دهنده اندروید نسل بعد، سیستم‌های هوش مصنوعی و فول‌استک.",
+    "hero.badge": "ساخت سیستم‌های هوشمند و خودکار",
+    "hero.title": "من اسما هستم — مهندس هوش مصنوعی و فول‌استک، خلق اکوسیستم‌های هوشمند.",
     "hero.body":
-      "توسعه‌دهنده‌ای متخصص در اپلیکیشن‌های اندروید، پردازش تصویر، تحلیل داده و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا برنامه‌هایی بسازم که با نیاز واقعی کاربران رشد کنند.",
-    "hero.cta.work": "مشاهده کارها",
-    "hero.cta.contact": "همکاری",
+      "توسعه‌دهنده‌ای متخصص در راهکارهای مبتنی بر هوش مصنوعی، پایپلاین‌های یادگیری ماشین، پردازش تصویر و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا نرم‌افزاری بسازم که یاد می‌گیرد، تطبیق می‌دهد و با نیاز واقعی رشد می‌کند.",
+    "hero.cta.work": "مشاهده کارهای AI",
+    "hero.cta.contact": "همکاری در پروژه AI",
 
     // Home: About
     "home.about.eyebrow": "درباره من",
-    "home.about.title": "مهندسی محصولی که حس علمی‌تخیلی دارد.",
+    "home.about.title": "مهندسی محصولات AI که حس آینده دارند.",
     "home.about.description":
-      "زیرساخت‌های ابری مقاوم طراحی می‌کنم، تجربه‌های تعاملی با Framer Motion می‌سازم و مسائل پیچیده کسب‌وکار را به محصولات کاربردی و شفاف تبدیل می‌کنم.",
+      "زیرساخت‌های ابری مقاوم و تجربه‌های مبتنی بر هوش مصنوعی طراحی می‌کنم و مسائل داده‌ای پیچیده را به محصولات هوشمند قابل استفاده تبدیل می‌کنم.",
     "home.about.p1":
-      "از استارتاپ‌های شتاب‌دهنده تا شرکت‌های بزرگ، پل بین بنیان‌گذاران، استراتژی محصول و اجرای مهندسی بوده‌ام تا ایده‌ها واقعی شوند.",
+      "از استارتاپ‌ها تا آزمایشگاه‌های بزرگ، پل بین ایده‌های نوآورانه، استراتژی AI و اجرای مهندسی بوده‌ام.",
     "home.about.p2":
-      "فول‌استک کار می‌کنم و تمرکزم روی تجربه توسعه‌دهنده است: APIهای تایپ‌شده، کوپایلوت‌های هوش مصنوعی داخل ابزارها و سیستم‌های طراحی مقیاس‌پذیر. هر محصول از نظر عملکرد، دسترس‌پذیری و تاثیر احساسی بررسی می‌شود.",
+      "تمرکزم روی ساخت سیستم‌های فول‌استک تقویت‌شده با AI است: مدل‌های پیش‌بینی، پایپلاین‌های ML، عوامل خودکار و APIهای هوشمند. هر پروژه برای عملکرد، دسترس‌پذیری و هوشمندی بهینه‌سازی شده است.",
 
     // Home: Highlights
-    "home.highlight.years": "سال تجربه در تولید محصولات آینده‌نگر",
+    "home.highlight.years": "سال تجربه در محصولات آینده‌نگر",
     "home.highlight.yearsValue": "۱۰+",
     "home.highlight.products": "محصولات ارائه‌شده در صنایع مختلف",
     "home.highlight.productsValue": "۴۵",
@@ -185,18 +188,18 @@ const messages: AllMessages = {
 
     // Home: Projects
     "home.projects.eyebrow": "پروژه‌ها",
-    "home.projects.title": "ساخت‌هایی در سطح عملیاتی با طراحی جذاب",
+    "home.projects.title": "ساخت‌های عملیاتی با تمرکز AI",
     "home.projects.description":
-      "نمونه‌هایی منتخب که ترکیبی از رابط کاربری جذاب، کوپایلوت‌های هوش مصنوعی و زیرساخت ابری دارند.",
-    "home.projects.cta": "مشاهده همه پروژه‌ها",
+      "نمونه‌هایی منتخب که ترکیبی از سیستم‌های هوشمند، مدل‌های ML و زیرساخت ابری دارند.",
+    "home.projects.cta": "مشاهده کل نمونه‌های AI",
 
-    // Home: Skills
+    // Home: Skills (unchanged)
     "home.skills.eyebrow": "مهارت‌ها",
     "home.skills.title": "ماتریس مهارت‌های آزموده‌شده برای تیم‌های محصول مدرن",
     "home.skills.description":
       "از ایده تا ارائه، به عنوان لید مهندسی با درک طراحی در تیم‌ها مشارکت می‌کنم.",
 
-    // Skills
+    // Skills (unchanged)
     "skills.android.label": "توسعه اندروید",
     "skills.android.detail": "ساخت اپلیکیشن‌های اندروید با Kotlin، Java و فریم‌ورک‌های مدرن.",
     "skills.image.label": "پردازش تصویر",
@@ -222,26 +225,29 @@ const messages: AllMessages = {
 
     // Projects page
     "projects.header.eyebrow": "پروژه‌ها",
-    "projects.header.title": "مجموعه‌ای منتخب از پروژه‌ها",
+    "projects.header.title": "مجموعه‌ای منتخب از پروژه‌های AI",
     "projects.header.description":
-      "هر پروژه با دقت، مانیتورینگ و روایت حرفه‌ای ساخته شده است.",
+      "هر پروژه با دقت و بهینه‌سازی برای سیستم‌های هوشمند و پایپلاین‌های ML ساخته شده است.",
 
-    "projects.cryptex.title": "کریپتکس",
+    "projects.cryptex.title": "کریپتکس AI",
     "projects.cryptex.description":
-      "برنامه‌ای برای رمزنگاری هیبریدی با RSA و AES که گذرواژه‌ها را امن رمزگذاری و رمزگشایی می‌کند و سپس با BCrypt برای ذخیره امن هش می‌کند.",
+      "سیستم رمزنگاری هیبریدی با تحلیل گذرواژه مبتنی بر AI و ذخیره امن.",
+
     "projects.vigiEmotion.title": "ویجی‌اِموشن",
     "projects.vigiEmotion.description":
-      "لایه‌ای برای تحلیل داده‌های لحظه‌ای که سیگنال‌های IoT را با کوپایلوت‌های GPT ترکیب می‌کند تا اپراتورها بتوانند زیرساخت‌ها را به زبان ساده مدیریت کنند.",
-    "projects.handControl.title": "هندکنترل",
+      "تحلیل داده‌های بلادرنگ با سیگنال‌های IoT و کوپایلوت‌های GPT برای مدیریت زیرساخت‌ها.",
+
+    "projects.handControl.title": "هندکنترل AI",
     "projects.handControl.description":
-      "سیستم ردیابی دست با MediaPipe و OpenCV برای کنترل ماوس، کلیک، کشیدن و ناوبری اسلایدها با حرکات دست.",
-    "projects.nova.title": "دستیار نووا",
+      "سیستم تشخیص حرکت دست مبتنی بر AI با MediaPipe و OpenCV برای کنترل هوشمند دستگاه‌ها.",
+
+    "projects.nova.title": "دستیار نووا AI",
     "projects.nova.description":
-      "دستیار صوتی «نووا» با تشخیص گفتار، چت هوش مصنوعی، جستجوی ویکی‌پدیا، مدیریت برنامه‌ها، گزارش‌گیری زمانی و کنترل سیستم.",
+      "دستیار صوتی با چت هوشمند، اتوماسیون، زمان‌بندی و کنترل هوشمند سیستم‌ها.",
 
     // Contact page
     "contact.header.eyebrow": "تماس",
-    "contact.header.title": "بیایید تجربه شاخص بعدی شما را طراحی کنیم",
+    "contact.header.title": "بیایید تجربه بعدی هوشمند شما را طراحی کنیم",
     "contact.header.description":
       "چالش یا ایده‌ای که دارید را بنویسید. معمولا ظرف یک روز کاری پاسخ می‌دهم.",
     "contact.links.email": "ایمیل",
@@ -258,22 +264,23 @@ const messages: AllMessages = {
 
     // Resume page
     "resume.header.eyebrow": "رزومه",
-    "resume.header.title": "عمق مهندسی با نتایج واقعی",
+    "resume.header.title": "عمق مهندسی با نتایج AI",
     "resume.header.description":
-      "ترکیبی از مهندسی موبایل، توسعه مبتنی بر هوش مصنوعی و سیستم‌های مقیاس‌پذیر. این یک نمای کلی است — برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
+      "ترکیبی از مهندسی هوش مصنوعی، پایپلاین‌های ML و سیستم‌های مقیاس‌پذیر. برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
     "resume.narrative.1":
-      "مهندس فول‌استک و اندروید — ساخت اپلیکیشن‌های موبایل مقیاس‌پذیر، داشبوردهای بلادرنگ و سیستم‌های بک‌اند پرقدرت برای هزاران کاربر فعال.",
+      "مهندس فول‌استک و AI — ساخت اپلیکیشن‌ها و سیستم‌های هوشمند با داشبورد بلادرنگ و بک‌اند هوشمند.",
     "resume.narrative.2":
-      "توسعه‌دهنده بینایی کامپیوتر و پردازش تصویر — طراحی پایپلاین‌های پیش‌پردازش، مدل‌های تشخیص و بهینه‌سازی پردازش برای محیط‌های عملیاتی.",
+      "توسعه‌دهنده بینایی کامپیوتر — طراحی پایپلاین‌ها و بهینه‌سازی پردازش برای محیط‌های عملیاتی.",
     "resume.narrative.3":
-      "تحلیل‌گر داده و ادغام‌کننده هوش مصنوعی — پیاده‌سازی جریان‌های داده آماده ML، لایه‌های تحلیلی و سیستم‌های گزارش‌گیری خودکار برای بهبود دقت تصمیم‌گیری.",
+      "تحلیل‌گر داده و ادغام‌کننده AI — پیاده‌سازی جریان‌های داده آماده ML و سیستم‌های گزارش‌گیری خودکار برای تصمیم‌گیری دقیق‌تر.",
     "resume.narrative.4":
-      "معمار سیستم و کلود — توسعه سرویس‌های کانتینری، APIهای رویدادمحور و زیرساخت‌های انعطاف‌پذیر که توان مقیاس‌پذیری بالا دارند.",
+      "معمار سیستم و کلود — توسعه APIهای رویدادمحور و زیرساخت‌های انعطاف‌پذیر با خدمات AI.",
     "resume.narrative.5":
-      "مهندس محصول مستقل — ارائه نرم‌افزار end-to-end برای مشتریان؛ از طراحی UX و رابط کاربری تا منطق بک‌اند، استقرار مدل و بهینه‌سازی بلندمدت.",
+      "مهندس محصول مستقل — ارائه نرم‌افزار end-to-end هوشمند از UX تا استقرار مدل و بهینه‌سازی بلندمدت.",
     "resume.download": "دانلود رزومه"
   }
 };
+
 
   
 
