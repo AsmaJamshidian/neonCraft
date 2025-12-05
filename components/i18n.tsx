@@ -19,7 +19,7 @@ type AllMessages = Record<Locale, Messages>;
 const messages: AllMessages = {
   en: {
     // Navigation
-    "nav.brand": "NeonCraft",
+    "nav.brand": "Asma",
     "nav.home": "Home",
     "nav.projects": "Projects",
     "nav.resume": "Resume",
@@ -150,7 +150,7 @@ const messages: AllMessages = {
   },
   fa: {
     // Navigation
-    "nav.brand": "نئون‌کرفت",
+    "nav.brand": "اسما",
     "nav.home": "خانه",
     "nav.projects": "پروژه‌ها",
     "nav.resume": "رزومه",
