@@ -55,5 +55,3 @@ export const skills = [
     detailKey: "skills.uiux.detail"
   }
 ] as const;
-
-
