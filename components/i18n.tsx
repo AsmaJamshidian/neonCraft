@@ -69,18 +69,34 @@ const messages: AllMessages = {
       "From ideation to launch, I plug into squads as an engineering lead with design fluency.",
 
     // Generic skills
-    "skills.android.label": "Android Development",
-    "skills.android.detail":
-      "Building scalable and performant Android apps with modern architecture patterns and clean code.",
-    "skills.image.label": "Image Processing",
-    "skills.image.detail":
-      "Applying advanced computer vision algorithms and ML pipelines for accurate image analysis.",
-    "skills.data.label": "Data Analysis",
-    "skills.data.detail":
-      "Designing data pipelines, real-time analytics, and dashboards for actionable insights.",
-    "skills.fullstack.label": "Full-Stack Web Development",
-    "skills.fullstack.detail":
-      "Creating scalable web applications using React, Next.js, Node.js, and database design.",
+    "skills.ai.label": "Artificial Intelligence",
+"skills.ai.detail":
+  "Developing intelligent systems, training ML models, and integrating AI into real-world applications.",
+
+"skills.security.label": "Cybersecurity",
+"skills.security.detail":
+  "Implementing secure architectures, hybrid cryptography, and conducting penetration testing.",
+
+"skills.backend.label": "Backend Engineering",
+"skills.backend.detail":
+  "Building reliable APIs, designing scalable architectures, and integrating cloud services like S3.",
+
+"skills.voice.label": "Voice Assistant Development",
+"skills.voice.detail":
+  "Creating custom voice-controlled systems with NLP, command pipelines, and automation logic.",
+
+"skills.game.label": "Game Development",
+"skills.game.detail":
+  "Designing and developing interactive 2D/3D experiences using modern game engines.",
+
+"skills.hardware.label": "Hardware & Embedded",
+"skills.hardware.detail":
+  "Working with Arduino, sensors, and system-level logic to build functional hardware–software systems.",
+
+"skills.uiux.label": "UI/UX Design",
+"skills.uiux.detail":
+  "Designing clean, modern, and user-focused interfaces with strong attention to detail and usability."
+
 
     // Projects page
     "projects.header.eyebrow": "Projects",
@@ -188,15 +204,27 @@ const messages: AllMessages = {
         "از ایده تا ارائه، به عنوان لید مهندسی با درک طراحی در تیم‌ها مشارکت می‌کنم.",
   
       // Generic skills
-      "skills.android.label": "توسعه اندروید",
-      "skills.android.detail": "ساخت اپلیکیشن‌های اندروید مقیاس‌پذیر و با عملکرد بالا با معماری مدرن و کد تمیز.",
-      "skills.image.label": "پردازش تصویر",
-      "skills.image.detail": "کار با الگوریتم‌های پیشرفته بینایی کامپیوتر و پایپلاین‌های یادگیری ماشین برای تحلیل دقیق تصاویر.",
-      "skills.data.label": "تحلیل داده",
-      "skills.data.detail": "طراحی جریان داده، تحلیل بلادرنگ و داشبوردهای قابل اقدام برای تصمیم‌گیری هوشمندانه.",
-      "skills.fullstack.label": "توسعه وب فول‌استک",
-      "skills.fullstack.detail": "ساخت وب‌اپ‌های مقیاس‌پذیر با React، Next.js، Node.js و طراحی دیتابیس اصولی.",
-  
+"skills.ai.label": "هوش مصنوعی",
+"skills.ai.detail": "توسعه سیستم‌های هوشمند، آموزش مدل‌های یادگیری ماشین و یکپارچه‌سازی AI در کاربردهای واقعی.",
+
+"skills.security.label": "امنیت سایبری",
+"skills.security.detail": "طراحی معماری‌های امن، پیاده‌سازی رمزنگاری ترکیبی و انجام تست نفوذ حرفه‌ای.",
+
+"skills.backend.label": "مهندسی بک‌اند",
+"skills.backend.detail": "ساخت APIهای قابل‌اعتماد، طراحی معماری‌های مقیاس‌پذیر و یکپارچه‌سازی سرویس‌های ابری مانند S3.",
+
+"skills.voice.label": "توسعه دستیار صوتی",
+"skills.voice.detail": "ساخت سیستم‌های کنترل صوتی سفارشی با پردازش زبان طبیعی و پایپلاین‌های فرمان‌دهی.",
+
+"skills.game.label": "بازی‌سازی",
+"skills.game.detail": "طراحی و توسعه تجربه‌های تعاملی دو‌بعدی و سه‌بعدی با استفاده از موتورهای بازی‌سازی مدرن.",
+
+"skills.hardware.label": "سخت‌افزار و امبدد",
+"skills.hardware.detail": "کار با آردوینو، سنسورها و پیاده‌سازی منطق سیستم برای ساخت پروژه‌های سخت‌افزار–نرم‌افزار.",
+
+"skills.uiux.label": "طراحی UI/UX",
+"skills.uiux.detail": "طراحی رابط‌های کاربری مدرن، ساده و کاربرمحور با توجه دقیق به زیبایی و تجربه استفاده."
+
       // Projects page
       "projects.header.eyebrow": "پروژه‌ها",
       "projects.header.title": "مجموعه‌ای منتخب از پروژه‌ها",
