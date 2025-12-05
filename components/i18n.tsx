@@ -29,21 +29,21 @@ const messages: AllMessages = {
 
     // Hero
     "hero.badge": "BUILDING INTELLIGENT & AUTONOMOUS SYSTEMS",
-    "hero.title": "I'm Asma — AI Engineer & Full-Stack Developer crafting smart ecosystems.",
+    "hero.title": "I'm Asma — **AI** Engineer & Full-Stack Developer crafting smart ecosystems.",
     "hero.body":
-      "Developer specializing in AI-powered solutions, machine learning pipelines, computer vision, and scalable full-stack systems. I combine clean engineering with intelligent automation to create software that learns, adapts, and evolves with real-world demand.",
-    "hero.cta.work": "Explore AI Work",
-    "hero.cta.contact": "Collaborate on AI",
+      "Developer specializing in **AI**-powered solutions, machine learning pipelines, computer vision, and scalable full-stack systems. I combine clean engineering with intelligent automation to create software that learns, adapts, and evolves with real-world demand.",
+    "hero.cta.work": "Explore Work",
+    "hero.cta.contact": "Collaborate",
 
     // Home: About
     "home.about.eyebrow": "About Me",
-    "home.about.title": "Engineering AI products that feel futuristic.",
+    "home.about.title": "Engineering products that feel futuristic with **AI** insights.",
     "home.about.description":
-      "I design resilient cloud systems, AI-driven experiences, and translate complex data problems into actionable, intelligent products.",
+      "I design resilient cloud systems, intelligent experiences, and translate complex data problems into actionable, high-impact products.",
     "home.about.p1":
-      "From startups to large-scale labs, I bridge the gap between visionary ideas, AI strategy, and engineering execution.",
+      "From startups to large-scale labs, I bridge the gap between visionary ideas, **AI** strategy, and engineering execution.",
     "home.about.p2":
-      "My focus is building full-stack systems enhanced by AI: predictive models, ML pipelines, autonomous agents, and intelligent APIs. Every project is optimized for performance, accessibility, and smart functionality.",
+      "My focus is building full-stack systems enhanced with **AI**: predictive models, ML pipelines, autonomous agents, and intelligent APIs. Every project is optimized for performance, accessibility, and smart functionality.",
 
     // Home: Highlights
     "home.highlight.years": "Years shipping futuristic products",
@@ -57,10 +57,10 @@ const messages: AllMessages = {
 
     // Home: Projects
     "home.projects.eyebrow": "Projects",
-    "home.projects.title": "Operational-grade builds with AI polish.",
+    "home.projects.title": "Operational-grade builds with **AI** polish.",
     "home.projects.description":
       "Selected case studies blending intelligent systems, ML models, and cloud-native backbones.",
-    "home.projects.cta": "View Full AI Portfolio",
+    "home.projects.cta": "View Full Portfolio",
 
     // Home: Skills
     "home.skills.eyebrow": "Skills",
@@ -78,7 +78,7 @@ const messages: AllMessages = {
     "skills.fullstack.label": "Full-Stack Development",
     "skills.fullstack.detail": "Building scalable web and mobile applications with backend and frontend integration.",
     "skills.ai.label": "Artificial Intelligence",
-    "skills.ai.detail": "Developing intelligent systems, training ML models, and integrating AI into real-world applications.",
+    "skills.ai.detail": "Developing intelligent systems, training ML models, and integrating **AI** into real-world applications.",
     "skills.security.label": "Cybersecurity",
     "skills.security.detail": "Implementing secure architectures, hybrid cryptography, and conducting penetration testing.",
     "skills.backend.label": "Backend Engineering",
@@ -94,29 +94,29 @@ const messages: AllMessages = {
 
     // Projects page
     "projects.header.eyebrow": "Projects",
-    "projects.header.title": "A curated set of AI-powered builds.",
+    "projects.header.title": "A curated set of **AI**-powered builds.",
     "projects.header.description":
       "Every launch is instrumented and optimized with intelligent systems and ML pipelines.",
 
-    "projects.cryptex.title": "Cryptex AI",
+    "projects.cryptex.title": "Cryptex",
     "projects.cryptex.description":
-      "Hybrid encryption system enhanced with AI-based password analysis and secure storage.",
+      "Hybrid encryption system enhanced with **AI**-based password analysis and secure storage.",
 
     "projects.vigiEmotion.title": "VigiEmotion",
     "projects.vigiEmotion.description":
       "Real-time analytics combining IoT signals and GPT-powered copilots for infrastructure monitoring.",
 
-    "projects.handControl.title": "HandControl AI",
+    "projects.handControl.title": "HandControl",
     "projects.handControl.description":
-      "AI-powered hand gesture recognition system using MediaPipe & OpenCV for smart device control.",
+      "Hand gesture recognition system using MediaPipe & OpenCV with **AI** for smart device control.",
 
-    "projects.nova.title": "Nova AI Assistant",
+    "projects.nova.title": "Nova Assistant",
     "projects.nova.description":
-      "Voice assistant integrating AI chat, automation, scheduling, and smart system controls.",
+      "Voice assistant integrating **AI** chat, automation, scheduling, and smart system controls.",
 
     // Contact page
     "contact.header.eyebrow": "Contact",
-    "contact.header.title": "Let’s architect your next AI-driven experience.",
+    "contact.header.title": "Let’s architect your next **AI**-driven experience.",
     "contact.header.description":
       "Drop a note with the challenge you’re facing. I usually reply within one business day.",
     "contact.links.email": "Email",
@@ -133,17 +133,17 @@ const messages: AllMessages = {
 
     // Resume page
     "resume.header.eyebrow": "Resume",
-    "resume.header.title": "Engineering depth with AI-driven results.",
+    "resume.header.title": "Engineering depth with **AI** results.",
     "resume.header.description":
-      "A blend of AI engineering, machine learning pipelines, and scalable systems. Download the full PDF for complete project breakdowns.",
+      "A blend of **AI** engineering, machine learning pipelines, and scalable systems. Download the full PDF for complete project breakdowns.",
     "resume.narrative.1":
-      "Full-Stack & AI Engineer — Built AI-powered mobile apps, real-time dashboards, and intelligent backend systems for thousands of users.",
+      "Full-Stack & **AI** Engineer — Built **AI**-powered mobile apps, real-time dashboards, and intelligent backend systems for thousands of users.",
     "resume.narrative.2":
       "Computer Vision Developer — Designed ML pipelines and optimized inference workflows for production environments.",
     "resume.narrative.3":
-      "Data Analyst & AI Integrator — Implemented ML-ready data flows and automated reporting systems for enhanced decision-making.",
+      "Data Analyst & **AI** Integrator — Implemented ML-ready data flows and automated reporting systems for enhanced decision-making.",
     "resume.narrative.4":
-      "Cloud & System Architect — Developed scalable, event-driven APIs and elastic infrastructures integrating AI services.",
+      "Cloud & System Architect — Developed scalable, event-driven APIs and elastic infrastructures integrating **AI** services.",
     "resume.narrative.5":
       "Independent Product Engineer — Delivered end-to-end intelligent software, from UX to backend, model deployment, and optimization.",
     "resume.download": "Download Resume"
@@ -160,21 +160,21 @@ const messages: AllMessages = {
 
     // Hero
     "hero.badge": "ساخت سیستم‌های هوشمند و خودکار",
-    "hero.title": "من اسما هستم — مهندس هوش مصنوعی و فول‌استک، خلق اکوسیستم‌های هوشمند.",
+    "hero.title": "من اسما هستم — مهندس **AI** و فول‌استک، خلق اکوسیستم‌های هوشمند.",
     "hero.body":
-      "توسعه‌دهنده‌ای متخصص در راهکارهای مبتنی بر هوش مصنوعی، پایپلاین‌های یادگیری ماشین، پردازش تصویر و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا نرم‌افزاری بسازم که یاد می‌گیرد، تطبیق می‌دهد و با نیاز واقعی رشد می‌کند.",
-    "hero.cta.work": "مشاهده کارهای AI",
-    "hero.cta.contact": "همکاری در پروژه AI",
+      "توسعه‌دهنده‌ای متخصص در راهکارهای مبتنی بر **AI**، پایپلاین‌های یادگیری ماشین، پردازش تصویر و سیستم‌های فول‌استک مقیاس‌پذیر. مهندسی تمیز را با اتوماسیون هوشمند ترکیب می‌کنم تا نرم‌افزاری بسازم که یاد می‌گیرد، تطبیق می‌دهد و با نیاز واقعی رشد می‌کند.",
+    "hero.cta.work": "مشاهده کارها",
+    "hero.cta.contact": "همکاری",
 
     // Home: About
     "home.about.eyebrow": "درباره من",
-    "home.about.title": "مهندسی محصولات AI که حس آینده دارند.",
+    "home.about.title": "مهندسی محصولات با بینش **AI** و حس آینده‌نگر.",
     "home.about.description":
-      "زیرساخت‌های ابری مقاوم و تجربه‌های مبتنی بر هوش مصنوعی طراحی می‌کنم و مسائل داده‌ای پیچیده را به محصولات هوشمند قابل استفاده تبدیل می‌کنم.",
+      "زیرساخت‌های ابری مقاوم و تجربه‌های هوشمند طراحی می‌کنم و مسائل داده‌ای پیچیده را به محصولات کاربردی تبدیل می‌کنم.",
     "home.about.p1":
-      "از استارتاپ‌ها تا آزمایشگاه‌های بزرگ، پل بین ایده‌های نوآورانه، استراتژی AI و اجرای مهندسی بوده‌ام.",
+      "از استارتاپ‌ها تا آزمایشگاه‌های بزرگ، پل بین ایده‌های نوآورانه، استراتژی **AI** و اجرای مهندسی بوده‌ام.",
     "home.about.p2":
-      "تمرکزم روی ساخت سیستم‌های فول‌استک تقویت‌شده با AI است: مدل‌های پیش‌بینی، پایپلاین‌های ML، عوامل خودکار و APIهای هوشمند. هر پروژه برای عملکرد، دسترس‌پذیری و هوشمندی بهینه‌سازی شده است.",
+      "تمرکزم روی ساخت سیستم‌های فول‌استک تقویت‌شده با **AI** است: مدل‌های پیش‌بینی، پایپلاین‌های ML، عوامل خودکار و APIهای هوشمند. هر پروژه برای عملکرد، دسترس‌پذیری و هوشمندی بهینه‌سازی شده است.",
 
     // Home: Highlights
     "home.highlight.years": "سال تجربه در محصولات آینده‌نگر",
@@ -188,12 +188,12 @@ const messages: AllMessages = {
 
     // Home: Projects
     "home.projects.eyebrow": "پروژه‌ها",
-    "home.projects.title": "ساخت‌های عملیاتی با تمرکز AI",
+    "home.projects.title": "ساخت‌های عملیاتی با تمرکز **AI**",
     "home.projects.description":
       "نمونه‌هایی منتخب که ترکیبی از سیستم‌های هوشمند، مدل‌های ML و زیرساخت ابری دارند.",
-    "home.projects.cta": "مشاهده کل نمونه‌های AI",
+    "home.projects.cta": "مشاهده کل نمونه‌ها",
 
-    // Home: Skills (unchanged)
+    // Home: Skills
     "home.skills.eyebrow": "مهارت‌ها",
     "home.skills.title": "ماتریس مهارت‌های آزموده‌شده برای تیم‌های محصول مدرن",
     "home.skills.description":
@@ -209,7 +209,7 @@ const messages: AllMessages = {
     "skills.fullstack.label": "توسعه فول‌استک",
     "skills.fullstack.detail": "ساخت اپلیکیشن‌های وب و موبایل مقیاس‌پذیر با یکپارچه‌سازی بک‌اند و فرانت‌اند.",
     "skills.ai.label": "هوش مصنوعی",
-    "skills.ai.detail": "توسعه سیستم‌های هوشمند، آموزش مدل‌های ML و یکپارچه‌سازی AI در کاربردهای واقعی.",
+    "skills.ai.detail": "توسعه سیستم‌های هوشمند، آموزش مدل‌های ML و یکپارچه‌سازی **AI** در کاربردهای واقعی.",
     "skills.security.label": "امنیت سایبری",
     "skills.security.detail": "طراحی معماری‌های امن، پیاده‌سازی رمزنگاری ترکیبی و انجام تست نفوذ حرفه‌ای.",
     "skills.backend.label": "مهندسی بک‌اند",
@@ -225,23 +225,23 @@ const messages: AllMessages = {
 
     // Projects page
     "projects.header.eyebrow": "پروژه‌ها",
-    "projects.header.title": "مجموعه‌ای منتخب از پروژه‌های AI",
+    "projects.header.title": "مجموعه‌ای منتخب از پروژه‌های **AI**",
     "projects.header.description":
       "هر پروژه با دقت و بهینه‌سازی برای سیستم‌های هوشمند و پایپلاین‌های ML ساخته شده است.",
 
-    "projects.cryptex.title": "کریپتکس AI",
+    "projects.cryptex.title": "کریپتکس",
     "projects.cryptex.description":
-      "سیستم رمزنگاری هیبریدی با تحلیل گذرواژه مبتنی بر AI و ذخیره امن.",
+      "سیستم رمزنگاری هیبریدی با تحلیل گذرواژه مبتنی بر **AI** و ذخیره امن.",
 
     "projects.vigiEmotion.title": "ویجی‌اِموشن",
     "projects.vigiEmotion.description":
       "تحلیل داده‌های بلادرنگ با سیگنال‌های IoT و کوپایلوت‌های GPT برای مدیریت زیرساخت‌ها.",
 
-    "projects.handControl.title": "هندکنترل AI",
+    "projects.handControl.title": "هندکنترل",
     "projects.handControl.description":
-      "سیستم تشخیص حرکت دست مبتنی بر AI با MediaPipe و OpenCV برای کنترل هوشمند دستگاه‌ها.",
+      "سیستم تشخیص حرکت دست مبتنی بر **AI** با MediaPipe و OpenCV برای کنترل هوشمند دستگاه‌ها.",
 
-    "projects.nova.title": "دستیار نووا AI",
+    "projects.nova.title": "دستیار نووا",
     "projects.nova.description":
       "دستیار صوتی با چت هوشمند، اتوماسیون، زمان‌بندی و کنترل هوشمند سیستم‌ها.",
 
@@ -264,25 +264,22 @@ const messages: AllMessages = {
 
     // Resume page
     "resume.header.eyebrow": "رزومه",
-    "resume.header.title": "عمق مهندسی با نتایج AI",
+    "resume.header.title": "عمق مهندسی با نتایج **AI**",
     "resume.header.description":
-      "ترکیبی از مهندسی هوش مصنوعی، پایپلاین‌های ML و سیستم‌های مقیاس‌پذیر. برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
+      "ترکیبی از مهندسی **AI**، پایپلاین‌های ML و سیستم‌های مقیاس‌پذیر. برای جزئیات کامل پروژه‌ها PDF را دانلود کنید.",
     "resume.narrative.1":
-      "مهندس فول‌استک و AI — ساخت اپلیکیشن‌ها و سیستم‌های هوشمند با داشبورد بلادرنگ و بک‌اند هوشمند.",
+      "مهندس فول‌استک و **AI** — ساخت اپلیکیشن‌ها و سیستم‌های هوشمند با داشبورد بلادرنگ و بک‌اند هوشمند.",
     "resume.narrative.2":
       "توسعه‌دهنده بینایی کامپیوتر — طراحی پایپلاین‌ها و بهینه‌سازی پردازش برای محیط‌های عملیاتی.",
     "resume.narrative.3":
-      "تحلیل‌گر داده و ادغام‌کننده AI — پیاده‌سازی جریان‌های داده آماده ML و سیستم‌های گزارش‌گیری خودکار برای تصمیم‌گیری دقیق‌تر.",
+      "تحلیل‌گر داده و ادغام‌کننده **AI** — پیاده‌سازی جریان‌های داده آماده ML و سیستم‌های گزارش‌گیری خودکار برای تصمیم‌گیری دقیق‌تر.",
     "resume.narrative.4":
-      "معمار سیستم و کلود — توسعه APIهای رویدادمحور و زیرساخت‌های انعطاف‌پذیر با خدمات AI.",
+      "معمار سیستم و کلود — توسعه APIهای رویدادمحور و زیرساخت‌های انعطاف‌پذیر با خدمات **AI**.",
     "resume.narrative.5":
       "مهندس محصول مستقل — ارائه نرم‌افزار end-to-end هوشمند از UX تا استقرار مدل و بهینه‌سازی بلندمدت.",
     "resume.download": "دانلود رزومه"
   }
 };
-
-
-  
 
 type I18nContextValue = {
   locale: Locale;
@@ -301,7 +298,6 @@ const STORAGE_KEY = "neon-portfolio-locale";
 export function I18nProvider({ children }: I18nProviderProps) {
   const [locale, setLocaleState] = useState<Locale>("en");
 
-  // Initialize from localStorage / browser
   useEffect(() => {
     try {
       const stored = window.localStorage.getItem(STORAGE_KEY) as Locale | null;
@@ -309,9 +305,7 @@ export function I18nProvider({ children }: I18nProviderProps) {
         setLocaleState(stored);
         return;
       }
-    } catch {
-      // ignore
-    }
+    } catch {}
 
     if (typeof navigator !== "undefined") {
       const lang = navigator.language.toLowerCase();
@@ -321,7 +315,6 @@ export function I18nProvider({ children }: I18nProviderProps) {
     }
   }, []);
 
-  // Sync lang/dir + fonts + persist
   useEffect(() => {
     if (typeof document !== "undefined") {
       const root = document.documentElement;
@@ -336,9 +329,7 @@ export function I18nProvider({ children }: I18nProviderProps) {
 
     try {
       window.localStorage.setItem(STORAGE_KEY, locale);
-    } catch {
-      // ignore
-    }
+    } catch {}
   }, [locale]);
 
   const setLocale = useCallback((next: Locale) => {
@@ -374,5 +365,3 @@ export function useI18n() {
   }
   return ctx;
 }
-
-
