@@ -1,3 +1,2 @@
 # neonCraft2
-# sd
-HIIIII
+a portfoilo using typescript
